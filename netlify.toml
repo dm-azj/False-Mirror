@@ -1,0 +1,4 @@
+[build]
+  base    = "frontend"   # exactly this, lowercase
+  command = "npm run build"
+  publish = "build"      # relative to base → looks in frontend/build
